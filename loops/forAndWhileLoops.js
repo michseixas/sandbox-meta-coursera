@@ -39,3 +39,15 @@ while (i<=2022){
     console.log(i)
     i++
 }
+
+//-------
+console.log("----")
+
+var i = 3;
+var j = 5;
+
+if(i == 3 && j < 5) {
+    console.log ("hello");
+} else {
+    console.log("goodbye");
+}
