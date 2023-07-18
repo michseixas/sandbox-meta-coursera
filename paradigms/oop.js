@@ -13,9 +13,3 @@
 
 // console.log (virtualPet.sleepy); 
 
-function styleAndCelebrate() {
-    consoleStyler(color, background, fontSize, txt);  
-    celebrateStyler(reason);
-}
-
-styleAndCelebrate()
