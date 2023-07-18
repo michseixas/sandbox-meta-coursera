@@ -27,3 +27,31 @@ kingPenguin.useWings(); // "Diving!"
 // it has its own implementation, although the Penguin class itself
 //  does extend the Bird class.  
 
+
+//-----------------------
+
+// my exercise  //
+// class Animals {
+//     walkAround () {
+//         console.log("just walking around")
+//     }
+// }
+
+// class Cat extends Animals {
+//     meaws () {
+//         console.log("miaw miaw miaw")
+//     }
+// }
+
+// class Bo extends Cat {
+//     queen () {
+//         console.log("I am the cat queen of the house")
+//     }
+// }
+
+// var whiteCat = new Bo();
+// var blackCat = new Cat();
+
+// whiteCat.queen();
+// blackCat.meaws();
+
