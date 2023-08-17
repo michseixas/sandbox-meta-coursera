@@ -1,0 +1,22 @@
+body{
+    margin: 20px;
+}
+
+.box{
+    background-color: #247;
+    color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+.container {
+    display: grid;
+    /* //set the size of each of the 3 columns */
+    grid-template-columns: 100px 100px 100px;  
+    /* fractions */
+    grid-template-rows: 2fr 1fr ;
+    grid-gap: 10px;
+    background-color: bisque;
+}
