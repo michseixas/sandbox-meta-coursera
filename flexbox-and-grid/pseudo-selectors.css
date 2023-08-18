@@ -1,0 +1,29 @@
+/* li::first-letter { 
+
+    color:coral; 
+    
+    font-size: 1.3em; 
+    
+    font-weight: bold; 
+    
+    line-height: 1; 
+    
+    }  */
+
+
+    /* ul{
+        list-style-type: none;
+    }
+    
+    li::first-line {
+        color: lightseagreen;
+        text-decoration: underline;
+        line-height: 1;
+    } */
+
+ 
+    li::marker {
+        color: cornflowerblue;
+        content: '<> ';
+        font-size: 1.1em;
+    }

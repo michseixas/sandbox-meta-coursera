@@ -58,7 +58,7 @@ div > h3{
     color: brown;
 }
 
-div ~div {
+div ~ div {
     color: rgb(90, 90, 90);
 }
 
