@@ -1,0 +1,17 @@
+.minutes {
+    animation: cycle 6s infinite linear;
+}
+
+.hours {
+    animation: cycle 60s infinite linear;
+}
+
+/* Since the other animation properties are not mentioned they are 
+set to the default values  */
+
+@keyframes cycle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+/* It  uses the transform property to rotate the cycle associated with both the hours and minute classes from the value of 0-360 degrees.  */
