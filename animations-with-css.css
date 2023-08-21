@@ -1,0 +1,25 @@
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to{
+        transform: translate3d(640px, 0, 0);
+    }
+}
+
+#ball {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+
+    animation: bounce 2s linear;
+    /* play the animation in 2 second duration*/
+    animation-direction: alternate;
+    /* Play the animation in reverse when it completes */
+    animation-iteration-count: infinite;
+    /* Play the animation loop infinetly */
+
+
+}

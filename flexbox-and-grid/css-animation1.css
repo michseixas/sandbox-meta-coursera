@@ -1,0 +1,41 @@
+body{ 
+
+    padding: 30px;} 
+    
+     
+    
+    .box{ 
+    
+    background-color: lightcoral; 
+    
+    width: 40px; 
+    
+    height: 50px; 
+    
+    animation: myanimation 3s infinite ease-in; 
+    
+    } 
+    
+     
+    
+    /* @keyframes myanimation{ 
+    from{width: 20px; 
+    } 
+
+
+    to{width: 100px; 
+    } } */
+
+    /* Same as: */
+    @keyframes myanimation{
+        0%{width: 50px;
+        }
+/* add an extra step */
+        50%{background-color: aquamarine;
+    height: 20px;
+}
+        
+        100%{width: 100px;
+        }
+    }        
+
