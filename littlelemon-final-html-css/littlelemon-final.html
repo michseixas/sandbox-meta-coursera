@@ -10,23 +10,22 @@
 </head>
 <body>
     <header>
-        <img src="littlelemon-top-logo.png" alt="Logo of Little Lemon Restaurant" width="80%">
+        <div class="top-logo">
+            <img src="littlelemon-top-logo-color.png" alt="Logo of Little Lemon Restaurant" width="80%">
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="book.html">Book</a></li>
-            <li><a href="about.html">About</a></li>
+    <nav class="navbar bg-dark border-bottom border-body justify-content-center" data-bs-theme="dark">
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="book.html">Book</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         </ul>
-        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-            <!-- Navbar content -->
-          </nav>
     </nav>
 <main>
     <section>
-        <article>
-            <h1>Heading 1</h1>
+        <article class="article-banner">
+            <h1>30% Off This Weekend</h1>
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, voluptatibus quis corrupti esse quasi fugiat voluptatum ducimus cupiditate sequi magni velit quidem soluta quos, repellendus commodi. Pariatur, non? Cumque, exercitationem.
             </p>
@@ -34,31 +33,34 @@
     </section>
     <section>
         <article>
-            <h2>Heading 2</h2>
+            <h2>Our Menu</h2>
+            <img src="little-lemon-menu.jpeg" class="rounded-2" alt="pad-thai dish">
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, voluptatibus quis corrupti esse quasi fugiat voluptatum ducimus cupiditate sequi magni velit quidem soluta quos, repellendus commodi. Pariatur, non? Cumque, exercitationem.
+            </p>
+        </article>
+        <article>
+            <h2>Book a Table</h2>
+            <img src="little-lemon-book-table.jpeg" class="rounded-2" alt="pasta and vegetables">
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod ut alias explicabo incidunt, assumenda culpa velit ducimus dicta deserunt suscipit, omnis doloribus error doloremque porro quibusdam. Eum reiciendis corrupti beatae!
             </p>
         </article>
         <article>
-            <h2>Heading 2</h2>
+            <h2>Opening Hours</h2>
+            <img src="little-lemon-opening-hours.jpeg" class="rounded-2" alt="chef cooking">
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde hic, tempora consequatur adipisci natus est delectus voluptate et rerum ducimus. Maiores numquam veniam ex quia tenetur consequatur, modi blanditiis iure.
-            </p>
-        </article>
-        <article>
-            <h2>Heading 3</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi tempore culpa earum alias ea vel inventore molestias, commodi porro, harum quod quisquam aperiam aliquid nisi, ratione magni quas placeat ullam!
             </p>
         </article>
     </section>
 </main>
 <footer>
-    <div>
-        <img src="logo_footer.png" alt="">
+    <div class="logo-footer">
+        <img src="logo-footer-full-color.png" alt="little lemon small logo" width="10%">
     </div>
-    <div>
-        <p>Copyright Little Lemon</p>
+    <div class="copyright">
+        <p>® Copyright Little Lemon</p>
     </div>    
 </footer>
 <script src="bootstrap.bundle.min.js"></script>
