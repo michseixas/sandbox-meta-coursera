@@ -1,5 +1,3 @@
-
-
 body{
     background-color: #EDEFEE;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,17 +15,33 @@ h2 {
     font-size: 2rem;
 }
 
-header > img {
+a {
+    color: #EDEFEE;
+}
+
+.navbar {
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    height: 3rem;
+    color: #EDEFEE;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+/* Center the logo inside of the header element*/
+header > img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Select ul that is descendant of nav*/
 nav ul {
     list-style: none;
-    text-align: center;
+    text-align: center; 
 }
 
+/* Select li that is descendant of nav*/
 nav li {
     display: inline-block;
 }
@@ -37,9 +51,9 @@ section {
 
 }
 
-/* article {
+article {
     flex: 1;
-} */
+}
 
 footer {
     display: flex;
@@ -56,12 +70,14 @@ footer div {
 
 .top-logo {
     padding: 2rem;
+    text-align: center;
 }
 
 /* Style to make images float next to each other */
 article img {
     width: 90%; /* Adjust the width as needed */
     margin: 5px; /* Add some margin between images */
+    border-radius: 10px;
 }
 
 .article-banner {
@@ -70,10 +86,10 @@ article img {
     background-size: cover;
     color: rgb(255, 255, 255);
     padding: 2rem;
+    border-radius: 10px;
   
 }
 
 .article-banner h1, .article-banner p {
     position: relative;
-    
 }
