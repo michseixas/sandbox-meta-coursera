@@ -17,6 +17,10 @@ body{
     margin-right: 5%;
 }
 
+main {
+    padding-bottom: 2rem;
+}
+
 h1 {
     font-size: 3rem;
 }
@@ -30,6 +34,25 @@ a {
     color: #EDEFEE;
 }
 
+/* PSEUDO CLASS*/
+
+a.highlight:hover {
+    color: #F4CD14;
+    font-size: 2.5rem;
+  } 
+
+
+
+/* HEADER ------------ */
+
+.top-logo {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/* NAVBAR ----------------*/
+
 .navbar {
     background-color: rgb(25, 25, 25);
     border-radius: 10px;
@@ -37,22 +60,15 @@ a {
     color: #EDEFEE;
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
-    
 }
 
-/* Center the logo inside of the header element*/
-header > img { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* Select ul that is descendant of nav*/
+
 nav ul {
     list-style: none;
     text-align: center; 
 }
 
-/* Select li that is descendant of nav*/
+
 nav li {
     display: inline-block;
 }
@@ -64,14 +80,57 @@ nav a {
     padding: 0 1rem 0 1rem;
 }
 
+/* SECTIONS --------------*/
+
 section {
     display: flex;
 
 }
 
+
+/* ARTICLES --------------*/
+
 article {
     flex: 1;
 }
+
+article img {
+    width: 90%; 
+    margin: 5px; 
+    border-radius: 10px;
+}
+
+.article-banner {
+    position: relative;
+    background-image: url("lemon-pie-banner.jpeg");
+    background-size: cover;
+    color: rgb(236, 239, 238);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+  
+}
+
+.article-banner p {
+    font-size: 1.5rem;
+    width: 35%;
+}
+
+.columns article{
+    background-color:#f4e3a4;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.columns p{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* FOOTER --------------*/
 
 footer {
     display: flex;
@@ -79,35 +138,26 @@ footer {
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.copyright .author{
+    font-size: 1rem;
 }
 
 footer div {
     flex: 1;
 }
 
-.top-logo {
-    padding: 2rem;
+.logo-footer{
+    padding-top: 1rem;
+    width: 100%;
     text-align: center;
 }
 
-/* Style to make images float next to each other */
-article img {
-    width: 90%; /* Adjust the width as needed */
-    margin: 5px; /* Add some margin between images */
-    border-radius: 10px;
-}
 
-.article-banner {
-    position: relative;
-    background-image: url("little-lemon-banner.jpeg");
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    padding: 2rem;
-    border-radius: 10px;
-  
-}
 
-.article-banner h1, .article-banner p {
-    position: relative;
-}
+
+
